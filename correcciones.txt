@@ -1,0 +1,4 @@
+Se agregó la interpretación de la matriz de correlación y se creó un nuevo dataframe
+con solo las columnas que se iban a utilizar. Lo del cálculo del ratio se estaba haciendo creando una
+nueva columna para la división que modificara los 0 por np.nan por lo que no se vio necesario
+modificarlo.
